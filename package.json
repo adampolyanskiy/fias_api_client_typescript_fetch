@@ -1,0 +1,26 @@
+{
+  "name": "@mradamp/fias_api_client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "prepublish": "tsc",
+    "open-api": "openapi-generator-cli generate -g typescript-fetch -i swagger.yaml -o ./src"
+  },
+  "keywords": [],
+  "author": "Adam P.",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adampolyanskiy/fias_api_client_typescript_fetch"
+  },
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.7.0"
+  }
+}
